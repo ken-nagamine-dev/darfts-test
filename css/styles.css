@@ -1,0 +1,31 @@
+
+.main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px 0 0;
+}
+
+h1 {
+   color: green;
+}
+
+#lupabusca,
+#lupalimpa {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 20px 0;
+}
+
+#lupabusca.invisivel,
+#lupalimpa.invisivel,
+#paginainicial.invisivel,
+#paginabusca.invisivel {
+   display: none;
+}
+
+#paginainicial {
+   display: flex;
+   flex-direction: column;
+}
